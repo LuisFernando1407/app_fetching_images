@@ -10,6 +10,6 @@ import retrofit2.http.Query
 interface ApiServices {
     /* Search in Galleries by Query */
     @Headers(APIConstants.CONTENT_TYPE)
-    @GET(APIConstants.SEARCH_IN_GALLERY)
+    @GET(APIConstants.SEARCH_IN_GALLERIES)
     fun galleriesByQuery(@Query("q") q: String): Call<SearchInGalleriesResponse>
 }

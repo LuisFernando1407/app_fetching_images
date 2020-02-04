@@ -10,5 +10,5 @@ object APIConstants {
     private const val API_VERSION = "3"
     private const val BASE_API = "/$API_VERSION"
 
-    const val SEARCH_IN_GALLERY = "$BASE_API/gallery/search"
+    const val SEARCH_IN_GALLERIES = "$BASE_API/gallery/search"
 }
