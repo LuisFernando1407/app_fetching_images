@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fetching Images</string>
+    <string name="title_alert_exit">Attention</string>
+    <string name="subtitle_alert_exit">Do you really want to exit the app?</string>
+
+    <string name="title_alert_exit_button_positive">Yes</string>
+    <string name="title_alert_exit_button_negative">No</string>
+
+    <string name="title_alert_api_error">Error</string>
+    <string name="title_alert_status_code_500">An internal error has occurred on the server, please try again later.</string>
+    <string name="title_alert_status_code_404">Server unavailable, please try later.</string>
+    <string name="title_alert_status_code_403">Invalid client_id.</string>
+
+    <string name="title_alert_throwable_timeout">Connection timeout or server unavailable, please try again later.</string>
+    <string name="title_alert_throwable_connect_exception">Check your internet access or try again later.</string>
+
+    <string name="title_no_results">No images found</string>
+
+    <string name="title_image_save">Image saved successfully</string>
+    <string name="title_image_error">Error saving image</string>
+
+    <string name="title_wait_for_loading">Wait for the image to load</string>
+</resources>
